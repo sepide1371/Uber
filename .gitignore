@@ -1,0 +1,76 @@
+# =========================
+# Environment variables and secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# =========================
+# IDEs and editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Docker and runtime data
+# =========================
+# Loki generated data
+loki/data/
+
+# Local database and runtime files
+*.sqlite
+*.sqlite3
+*.db
+
+# Downloaded image archives
+*.tar
+
+# =========================
+# Go
+# =========================
+location_service/vendor/
+location_service/bin/
+*.test
+coverage.out
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
+
